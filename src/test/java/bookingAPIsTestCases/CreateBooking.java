@@ -1,4 +1,4 @@
-package TestCases;
+package bookingAPIsTestCases;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -50,7 +50,7 @@ public class CreateBooking extends BaseClass {
 		response = httpRequest.request(Method.POST, basePath);
 
 		// Print Response as a string
-		String responseBody = response.getBody().asPrettyString();
+		String responseBody = response.getBody().asString();
 		System.out.println("Response body is: " + responseBody);
 		
 		//getting booking id

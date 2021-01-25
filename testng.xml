@@ -8,11 +8,12 @@
 
 	<test name="RestAssuredAPITestingFramework">
 		<classes>
-			<class name="TestCases.GetBookingIds" />
-			<class name="TestCases.GetBookingID" />
-			<class name="TestCases.CreateAuthToken" />
-			<class name="TestCases.CreateBooking" />
-			<class name="TestCases.CreateEmployee" />
+			<class name="bookingAPIsTestCases.GetBookingIds" />
+			<class name="bookingAPIsTestCases.GetBookingID" />
+			<class name="bookingAPIsTestCases.CreateAuthToken" />
+			<class name="bookingAPIsTestCases.CreateBooking" />
+			<class name="employeeAPIsTestCases.CreateEmployee" />
+			<class name="coopAPIsTestCases.ChickenFeed"/>
 		</classes>
 	</test>
 

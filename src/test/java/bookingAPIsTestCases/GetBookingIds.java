@@ -1,4 +1,4 @@
-package TestCases;
+package bookingAPIsTestCases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -29,7 +29,7 @@ public class GetBookingIds extends BaseClass {
 		response = httpRequest.request(Method.GET, basePath);
 
 		// Print Response as a string
-		String responseBody = response.getBody().asPrettyString();
+		String responseBody = response.getBody().asString();
 		System.out.println("Response body is: " + responseBody);
 		
 		Thread.sleep(3000);

@@ -1,4 +1,4 @@
-package TestCases;
+package employeeAPIsTestCases;
 
 import org.json.simple.JSONObject;
 import org.testng.Assert;
@@ -33,7 +33,7 @@ public class CreateEmployee extends BaseClass{
 		
 		response = httpRequest.request(Method.POST, basePath);
 		
-		System.out.println(response.asPrettyString());
+		System.out.println(response.asString());
 		
 		
 		/*

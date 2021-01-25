@@ -1,4 +1,4 @@
-package TestCases;
+package bookingAPIsTestCases;
 
 import org.json.simple.JSONObject;
 import org.testng.Assert;
@@ -39,7 +39,7 @@ public class CreateAuthToken extends BaseClass {
 		response = httpRequest.request(Method.POST, basePath);
 
 		// Print Response as a string
-		String responseBody = response.getBody().asPrettyString();
+		String responseBody = response.getBody().asString();
 		System.out.println("Response body is: " + responseBody);
 
 		// getting token
