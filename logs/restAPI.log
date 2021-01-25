@@ -125,3 +125,9 @@
 2021-01-26 09:37:19 INFO  API Logger:55 - ********* Create Employee Test Case execution is completed **********
 2021-01-26 09:37:19 INFO  API Logger:25 - *************Started Execution of Chicken Feed Test Case
 2021-01-26 09:37:20 INFO  API Logger:49 - *************Chicken Feed test case is completed.
+2021-01-26 10:31:04 INFO  API Logger:17 - ******************Unlock Barn Test Case is Started.*************************
+2021-01-26 10:31:12 INFO  API Logger:39 - *******************Unlock Bark Test Case is Completed*************************
+2021-01-26 10:32:42 INFO  API Logger:17 - ******************Unlock Barn Test Case is Started.*************************
+2021-01-26 10:32:50 INFO  API Logger:41 - *******************Unlock Bark Test Case is Completed*************************
+2021-01-26 10:37:15 INFO  API Logger:17 - ******************Unlock Barn Test Case is Started.*************************
+2021-01-26 10:37:23 INFO  API Logger:48 - *******************Unlock Bark Test Case is Completed*************************
